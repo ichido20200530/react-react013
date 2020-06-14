@@ -10,9 +10,9 @@ function mappingState(state) {
 //Appコンポーネント
 export default class App extends Component {
 
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   render() {
     return (
