@@ -15,15 +15,15 @@ let state_value = {
 function counter(state = state_value, action) {
   switch (action.type) {
     case 'INCREMENT':
-    return {
-      counter: state.counter + 1,
-      message: "INCREMENT"
-    };
+      return {
+        counter: state.counter + 1,
+        message: "INCREMENT"
+      };
     case 'DECREMENT':
-    return {
-      counter: state.counter - 1,
-      message: "DECREMENT"
-    };
+      return {
+        counter: state.counter - 1,
+        message: "DECREMENT"
+      };
     default:
       return state;
   }
